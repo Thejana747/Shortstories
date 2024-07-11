@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LitNest - Author Profile</title>
+    <meta name="description" content="Discover a wide range of short stories, books, non-fiction articles, and captivating tales across various genres including Fantasy, Crime, Drama, Mystery, Poetry, and Romance.">
+    <meta name="keywords" content="short stories, books, non-fiction articles, fantasy, crime, drama, mystery, poetry, romance, literature">
+    <meta name="author" content="LitNest">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>LitNest</h1>
+        </div>
+        <div class="header-right">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="stories.html">Stories</a>
+            </nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="stories.html">Stories</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="author-container" id="author-profile">
+            <h1 id="author-name"></h1>
+            <p id="author-bio"></p>
+            <h2>Stories by this Author</h2>
+            <table id="author-stories-table">
+                <thead>
+                    <tr>
+                        <th>Story Name</th>
+                        <th>Date Published</th>
+                    </tr>
+                </thead>
+                <tbody id="author-stories">
+                    <!-- Author's stories will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 LitNest. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=61562291130894"><i class="fab fa-facebook-f"></i></a>
+            
+        </div>
+    </footer>
+    <script src="story-details.js"></script>
+</body>
+</html>
